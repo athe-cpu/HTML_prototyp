@@ -1,0 +1,71 @@
+.About {
+   display: inline-block;
+   cursor: pointer;
+   position: absolute;
+   left: 600px;
+   top: 15px;
+   margin-left: 5px;
+   margin-right: 40px;
+   margin-bottom: 18px;
+   font-family: Inter;
+   font-size: 18px;
+   text-decoration: none;
+   color: #FFFFFF;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+ }
+ .myPopup_33 {
+   margin-left: 0px;
+   color: #393E41;
+   font-size: 12px;
+   background-color: #F6F7EB;
+   font-family: sans-serif;
+   white-space:initial;
+ }
+ .myPopup_66 {
+   margin-left: 5px;
+   color: #393E41;
+   font-size: 12px;
+   background-color: #F6F7EB;
+   font-family: sans-serif;
+   white-space:initial;
+ }
+ .myPopup_99 {
+   margin-left: 5px;
+   color: #393E41;
+   font-size: 12px;
+   background-color: #F6F7EB;
+   font-family: sans-serif;
+   white-space:initial;
+ }
+ .Terms {
+   display: inline-block;
+   cursor: pointer;
+   position: absolute;
+   left: 700px;
+   top: 15px;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-bottom: 55px;
+   font-family: Inter;
+   font-size: 18px;
+   text-decoration: none;
+   color: #FFFFFF;
+ }
+ .Privacy {
+   display: inline-block;
+   cursor: pointer;
+   position: absolute;
+   left: 850px;
+   top: 15px;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-bottom: 55px;
+   font-family: Inter;
+   font-size: 18px;
+   text-decoration: none;
+   color: #FFFFFF;
+   
+ }

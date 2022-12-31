@@ -1,0 +1,70 @@
+a.nav_bar{
+   font-size: medium;
+
+}
+
+a#first{
+   color:blue;
+   text-decoration: none;
+   border: 1px;
+}
+
+
+li:hover{
+   background-color: #f1f3f5;
+}
+
+p{
+   font-size: 18px;
+   color: black;
+}
+
+li{
+  width: 150px;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.list-element{
+   color: #393E41;
+   cursor: pointer;
+   margin-left: 5px;
+   text-decoration: none;
+   width: 100px;
+}
+.choosed-element{
+   background-color: #C3D7EA;
+   margin-left: 5px;
+   padding-left: 10px;
+   padding-right:105px;
+}
+.choosed-element2{
+   background-color: #C3D7EA;
+   margin-left: 5px;
+   padding-left: 10px;
+   padding-right:91px;
+}
+.choosed-element3{
+   background-color: #C3D7EA;
+   margin-left: 5px;
+   padding-left: 10px;
+   padding-right:117px;
+}
+.choosed-element4{
+   background-color: #C3D7EA;
+   margin-left: 5px;
+   padding-left: 10px;
+   padding-right:110px;
+}
+.list{
+   margin-left: -10px;
+   padding-left: 5px;
+   padding-right: 5px;
+   background-color: #D9D9D9;
+   color: #393E41;
+}
+.train_b{
+   margin-top: 500px;
+   margin-left: 600px;
+}
+

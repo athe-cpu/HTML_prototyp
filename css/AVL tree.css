@@ -1,0 +1,22 @@
+.node circle {
+  fill: #D9D9D9;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+.text {
+	font-family: 'Open Sans', sans-serif;
+	fill: #000000;
+	font-size: 16px;
+}
+
+.link {
+  fill: none;
+  stroke: #000000;
+  stroke-opacity: 0.8;
+  stroke-width: 1px;
+}
+
+form {
+  display: inline;
+}

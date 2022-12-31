@@ -1,0 +1,211 @@
+.footer-container{
+   margin: auto;
+   height: 70%;
+   line-height: 70%;
+   text-align: right;
+   background-color: #393E41;
+   color: #FFFFFF;
+   width: 100%;
+   /* border: 3px solid green; */
+}
+
+.foot{
+   margin-left: 5px;
+   margin-right: 40px;
+   font-family: Inter;
+   font-size: 18px;
+   text-decoration: none;
+   color: #FFFFFF;
+   /* border: 3px solid green; */
+}
+
+.popup {
+   display: inline-block;
+   cursor: pointer;
+   position: relative;
+   margin-left: 5px;
+   margin-right: 40px;
+   margin-bottom: 18px;
+   font-family: Inter;
+   font-size: 18px;
+   text-decoration: none;
+   color: #FFFFFF;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+ }
+ 
+ /* The actual popup */
+.popuptext {
+   visibility: hidden;
+   width: 500px;
+   background-color: #555;
+   color: #fff;
+   text-align: left;
+   background-color: #E94F37;
+   /* border-radius: 6px; */
+   padding: 12px 0;
+   position: absolute;
+   z-index: 1;
+   bottom: 400px;
+   left: -650%;
+   margin-left: -80px;
+ }
+
+ .popuptext_2 {
+   visibility: hidden;
+   width: 494px;
+   background-color: #F6F7EB;
+   text-align: left;
+   border-bottom-right-radius: 6px;
+   border-bottom-left-radius: 6px;
+   border-bottom: 3px solid #393E41;
+   border-left: 3px solid #393E41;
+   border-right: 3px solid #393E41;
+   padding: 12px 0;
+   position: absolute;
+   z-index: 1;
+   bottom: 104px;
+   left: -650%;
+   margin-left: -80px;
+ }
+ .popuptext_3 {
+   visibility: hidden;
+   width: 500px;
+   background-color: #555;
+   color: #fff;
+   text-align: left;
+   background-color: #E94F37;
+   /* border-radius: 6px; */
+   padding: 12px 0;
+   position: absolute;
+   z-index: 1;
+   bottom: 400px;
+   left: -415%;
+   margin-left: -80px;
+ }
+
+ .popuptext_4 {
+   visibility: hidden;
+   width: 494px;
+   background-color: #F6F7EB;
+   text-align: left;
+   border-bottom-right-radius: 6px;
+   border-bottom-left-radius: 6px;
+   border-bottom: 3px solid #393E41;
+   border-left: 3px solid #393E41;
+   border-right: 3px solid #393E41;
+   padding: 12px 0;
+   position: absolute;
+   z-index: 1;
+   bottom: 104px;
+   left: -415%;
+   margin-left: -80px;
+ }
+ .popuptext_5 {
+   visibility: hidden;
+   width: 500px;
+   background-color: #555;
+   color: #fff;
+   text-align: left;
+   background-color: #E94F37;
+   /* border-radius: 6px; */
+   padding: 12px 0;
+   position: absolute;
+   z-index: 1;
+   bottom: 450px;
+   left: -505%;
+   margin-left: -80px;
+ }
+
+ .popuptext_6 {
+   visibility: hidden;
+   width: 494px;
+   background-color: #F6F7EB;
+   text-align: left;
+   border-bottom-right-radius: 6px;
+   border-bottom-left-radius: 6px;
+   border-bottom: 3px solid #393E41;
+   border-left: 3px solid #393E41;
+   border-right: 3px solid #393E41;
+   padding: 12px 0;
+   position: absolute;
+   z-index: 1;
+   bottom: 104px;
+   left: -505%;
+   margin-left: -80px;
+ }
+ .myPopup_1 {
+   color: #fff;
+   background-color: #E94F37;
+   margin: auto;
+   margin-left: 20px;
+ }
+ .myPopup_2 {
+   color: #393E41;
+   background-color: #E94F37;
+   margin-left: 400px;
+   font-size: 30px;
+   font-family: sans-serif;
+ }
+ 
+ .myPopup_3 {
+   margin-left: 5px;
+   color: #393E41;
+   font-size: 12px;
+   background-color: #F6F7EB;
+   font-family: sans-serif;
+
+ }
+ .myPopup_4 {
+   color: #fff;
+   background-color: #E94F37;
+   margin: auto;
+   margin-left: 20px;
+   /* border: 3px solid green; */
+ }
+ .myPopup_5 {
+   color: #393E41;
+   background-color: #E94F37;
+   margin-left: 350px;
+   font-size: 30px;
+   font-family: sans-serif;
+   /* border: 3px solid green; */
+ }
+ 
+ .myPopup_6 {
+   margin-left: 5px;
+   color: #393E41;
+   font-size: 12px;
+   background-color: #F6F7EB;
+   font-family: sans-serif;
+ }
+ .myPopup_7 {
+   color: #fff;
+   background-color: #E94F37;
+   margin: auto;
+   margin-left: 20px;
+   /* border: 3px solid green; */
+ }
+ .myPopup_8 {
+   color: #393E41;
+   background-color: #E94F37;
+   margin-left: 330px;
+   font-size: 30px;
+   font-family: sans-serif;
+   /* border: 3px solid green; */
+ }
+ 
+ .myPopup_9 {
+   margin-left: 5px;
+   color: #393E41;
+   font-size: 12px;
+   background-color: #F6F7EB;
+   font-family: sans-serif;
+ }
+.show  {
+   visibility: visible;
+   -webkit-animation: fadeIn 1s;
+   animation: fadeIn 1s;
+ }

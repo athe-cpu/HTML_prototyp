@@ -1,0 +1,95 @@
+.head{
+   background-color: #393E41;
+   width: 100%;
+   white-space: nowrap;
+   margin: auto;
+   height: 45px;
+   position: relative;
+}
+.Profile{
+   box-sizing: border-box;
+
+   background: #393E41;
+   border: 2px solid #FFFC31;  
+   
+   width: 120px;
+   height: 25px;
+   margin: 8px;
+   cursor: pointer;
+   color:#FFFC31;
+   border-radius: 0%;
+}
+.sk-language{
+   background-color: #393E41;
+   color: white;
+   width: fit-content;
+   font-size: smaller;
+}
+
+.languages{
+   margin-left: 16px;
+   text-align: center;
+   background-color: #393E41;
+   text-decoration: none;
+  
+   color: white;
+   font-size: smaller;
+   width: fit-content;
+}
+.header_buttons{
+   position: absolute;
+   padding: 0px;
+   display: inline-block;
+   width: fit-content;
+   margin-top: 3px;
+   margin-bottom: 0px;
+   margin-left: 710px;
+   /* border: 3px solid green; */
+}
+.svg{
+   position: absolute;
+   display: inline-block;
+   /* border: 3px solid green; */
+   margin-top: 8px;
+   margin-left: 10px;
+   margin-bottom: 0px;
+ }
+.tuke{
+   padding: 0px;
+   display: inline-block;
+   position: absolute;
+   margin-top: 11px;
+   margin-bottom: 0px;
+   margin-left: 50px;
+   font-weight: normal;
+   font-size: 1.2rem;
+   /* border: 3px solid green; */
+   font-family: sans-serif;
+}
+.Algoritms{
+   padding: 0px;
+   display: inline-block;
+   position: absolute;
+   margin-top: 11px;
+   margin-bottom: 0px;
+   margin-left: 130px;
+   font-weight: normal;
+   font-size: 1.2rem;
+   /* border: 3px solid green; */
+   font-family: sans-serif;
+}
+
+.languages_{
+   position: absolute;
+   display: inline-block;
+   width: fit-content;
+   margin-top: 3px;
+   margin-bottom: 0px;
+   margin-left: 250px;
+   /* border: 3px solid green; */
+}
+
+.text{
+   color: white;
+   text-decoration: none;
+}
