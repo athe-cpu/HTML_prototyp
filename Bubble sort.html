@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+
+<head>
+    <style>
+        div {margin-left: 40px;margin-top: 20px}
+        text {fill: black;}
+        rect {fill: blue;}
+        .sorted {fill: red;}
+        .min {fill: red;}
+        .testing {fill: red;}
+    </style>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/div_dec.css">
+    <title>Algorithm-buble sort</title>
+    <script type="text/javascript" src="http://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
+    <div class="page">
+        <div class="head">
+          <div class="svg">
+          <object  data="icon/logo.svg" type="image/svg+xml" width="25px" height="25px"></object>
+        </div>
+          <div class="tuke">
+            <a class="text" href="https://www.tuke.sk/wps/portal">TUKE</a>
+          </div>
+          <div class="Algoritms">
+            <a class="text" href="Main page.html">Algoritms.net</a>
+          </div> 
+          <div class="languages_">     
+            <object style="margin-left: 20px;"  data="icon/language change icon.svg" type="image/svg+xml" width="55px" height="40px"></object>
+          </div> 
+          <div class="header_buttons">
+            <button onclick="location.href='profile.html';" class = "Profile">Profile</button>
+            <button  onclick="location.href='login.html';">Login</button>
+          </div>
+        </div>
+        <!-- <hr> -->
+          <div style="margin: auto;">
+            <h1 style="text-align: center;">Bubble sort</h1>
+          </div>
+        
+         <div class="bubble-container">
+            <button id="sort">Bubble Sort</button>
+            <button id="stop" style="margin-left:40px">Stop</button>
+            <button id="reset">Reset</button>
+            <button id="shuffle">Shuffle</button>
+            <div  class = "step-style">Steps: <span id="counter">0</span></div> 
+        </div> 
+
+        <script src="algoritms/bubble_sort.js"></script>
+        <div class="train-container">
+            <button onclick="window.location.href='Main page bubble sort.html';">Back</button>
+            <button onclick="window.location.href='algoritms test.html';">Training</button>
+        </div>
+        <div class="footer-container">
+            <div class= "popup"  onclick="About()">About
+                <div  class="popuptext" id="myPopup">
+                    <span class ="myPopup_1">About</span>
+                    <span class="myPopup_2">x</span>
+                </div>
+                <div class= "popuptext_2" id="myPopup2">
+                    <span class="myPopup_3">
+                        <strong>Algoritms.net</strong> - was created in 2022 as a tool to help students better understand data structures and algorithms, by allowing them to learn the basics on their own and at their own pace.
+                        Though specifically designed for Technical University of Kosice (TUKE) students taking various 
+                        data structure and algorithm classes as advocators of online learning, we hope that curious minds around the world will find these visualizations useful too.
+                        Algoritms.net is not designed to work well on small touch screens (e.g., smartphones) from 
+                        the outset due to the need to cater for many complex algorithm visualizations that require lots of pixels and click-and-drag gestures for interaction. The minimum screen resolution for a respectable user experience is 1024x768 and only the landing page is relatively mobile-friendly. 
+                        Algoritms.net is an ongoing project and more complex visualizations are still being developed.
+                        The most exciting development is the automated question generator and verifier (the online quiz system) 
+                        that allows students to test their knowledge of basic data structures and algorithms. 
+                        The questions are randomly generated via some rules and students' answers are instantly and automatically graded upon submission to our grading server. 
+                        This online quiz system, when it is adopted by more CS instructors worldwide, should technically eliminate manual basic data structure and algorithm questions from typical Computer Science examinations in many Universities. By setting a small (but non-zero) weightage on passing the online quiz, a CS instructor can (significantly) increase his/her students mastery on these basic questions as the students have virtually infinite number of training questions that can be verified instantly before they take the online quiz. 
+                        We have translated Algoritms.net pages into two main languages: English,  and Slovak.
+                    </span>
+                </div>
+            </div>
+            <div class= "popup"  onclick="TermsOfUse()">Terms of use
+                <div  class="popuptext_3" id="myPopup3">
+                    <span class ="myPopup_4">Terms of use</span>
+                    <span class="myPopup_5">x</span>
+                </div>
+                <div class= "popuptext_4" id="myPopup4">
+                    <span class="myPopup_6">
+                        <strong>Algoritms.net</strong> - is free of charge for Computer Science community on earth. 
+                        If you like Algoritms.net, the only "payment" that we ask of you is for you to tell the existence of Algoritms.net to other Computer Science students/instructors that you know =) via Facebook/Twitter/Instagram/TikTok posts, course webpages, blog reviews, emails, etc.
+                        If you are a data structure and algorithm student/instructor, you are allowed to use this website directly for your classes. 
+                        If you take screen shots (videos) from this website, you can use the screen shots (videos) elsewhere as long as you cite the URL of this website (https://Algoritms.net) and/or list of publications below as reference. 
+                        However, you are NOT allowed to download Algoritms.net (client-side) files and host it on your own website as it is plagiarism. As of now, we do NOT allow other people to fork this project and create variants of Algoritms.net. Using the offline copy of (client-side) Algoritms.net for your personal usage is fine.
+                        Note that Algoritms.net's online quiz component is by nature has heavy server-side component and there is no easy way to save the server-side scripts and databases locally. Currently, the general public can only use the 'training mode' to access these online quiz system. Currently the 'test mode' is a more controlled environment for using these randomly generated questions and automatic verification for real examinations in TUKE.
+                        <br>
+                        <br>
+                        This work is done mostly by past students.
+                        Bug Reports or Request for New Features
+                        Algoritms.net is not a finished project. If you are using Algoritms.net and spot a bug in any of our visualization page/online quiz tool or if you want to request for new features, please contact us. 
+                    </span>
+                </div>
+            </div>
+            <div class= "popup"  onclick="PrivacyPolicy()">Privacy policy
+                <div  class="popuptext_5" id="myPopup5">
+                    <span class ="myPopup_7">Privacy policy</span>
+                    <span class="myPopup_8">x</span>
+                </div>
+                <div class= "popuptext_6" id="myPopup6">
+                    <span class="myPopup_9">Since Wed, 22 Dec 2021, only Technical University of Kosice (TUKE) staffs/students and approved CS lecturers outside of TUKE who have written a request  can login to Algoritms.net, anyone else in the world will have to use Algoritms.net as an anonymous user that is not really trackable other.
+                        For TUKE students enrolled in modules that uses Algoritms.net: By using a Algoritms.net account (a tuple of TUKE official email address, TUKE official student name as in the class roster, 
+                        and a password that is encrypted on the server side — no other personal data is stored), 
+                        you are giving a consent for your module lecturer to keep track of your e-lecture slides reading and online quiz training progresses that is needed to run the module smoothly. Your Algoritms.net account will also be needed for taking TUKE official Algoritms.net Online Quizzes and thus passing your account credentials to another person to do the Online Quiz on your behalf constitutes an academic offense. Your user account will be purged after the conclusion of the module unless you choose to keep your account. Access to the full Algoritms.net database (with encrypted passwords) is limited to owner himself.
+                        For other TUKE students, you can self-register a Algoritms.net account by yourself.
+                        For other CS lecturers worldwide who have written to Steven, a VisuAlgo account (your  email address, you can use any display name, and encrypted password) is needed to distinguish your online credential versus the rest of the world. 
+                        Your account will be tracked similarly as a normal TUKE student account above but it will have CS lecturer specific features, namely the ability to see the hidden slides that contain (interesting) answers to the questions presented in the preceding slides before the hidden slides. You can also access Hard setting of the Algoritms.net Online Quizzes. You can freely use the material to enhance your data structures and algorithm classes. Note that there can be other CS lecturer specific features in the future.
+                        For anyone with Algoritms.net account, you can remove your own account by yourself should you wish to no longer be associated with Algoritms.net tool.                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="algoritms/footer_logic.js"></script>
+</body>
+</html>
